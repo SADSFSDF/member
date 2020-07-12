@@ -111,6 +111,7 @@ public class TestController {
         u.setId(11);
         u.setUsername("mmm");
         u.setPassword("123");
+        System.out.println(123);
         int i = memberService.addMember2(u);
         return ResponseEntity.success(i);
     }
